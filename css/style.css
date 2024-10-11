@@ -1,0 +1,75 @@
+:root {
+	--ff-base: 'Manrope', sans-serif;
+	--fw-regular: 500;
+	--fw-bold: 700;
+
+	--clr-bg: hsl(210, 46%, 95%);
+}
+
+body {
+	font-family: var(--ff-base);
+	font-size: 13px;
+	font-weight: var(--fw-regular);
+
+	background-color: var(--clr-bg);
+}
+
+.container {
+	display: grid;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+.card {
+	display: grid;
+	background-color: white;
+	/* max-width: 450px; */
+	margin: 1rem;
+	gap: 1rem;
+	border-radius: 0.8rem;
+	overflow: hidden;
+}
+
+.card_content {
+	display: grid;
+	gap: 1rem;
+	padding: 1rem;
+}
+
+.card_content > p {
+	line-height: 1.3rem;
+	color: hsl(214, 17%, 51%);
+}
+
+.flex {
+	display: flex;
+	justify-content: space-between;
+	gap: 1rem;
+}
+
+.icon_name {
+	display: flex;
+	gap: 1rem;
+	align-items: center;
+}
+
+.michelle_icon {
+	height: 40px;
+	border-radius: 50%;
+}
+
+.share_button {
+	border: none;
+	border-radius: 50%;
+}
+
+.date {
+	color: hsl(212, 23%, 69%);
+}
+
+h2,
+.name {
+	font-weight: var(--fw-bold);
+	color: hsl(217, 19%, 35%);
+}
